@@ -140,4 +140,26 @@ dist
 # Vite files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.db
+.DS_Store
+
+# Angular
+frontend/dist/
+frontend/.angular/
+
+# Playwright
+automation/node_modules/
+automation/test-results/
+automation/playwright-report/
+
+# Temp automation scripts
+/tmp/run_*.ts
 .vite/
